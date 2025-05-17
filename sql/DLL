@@ -1,0 +1,14 @@
+CREATE TABLE public.auto_and_deploy (
+	id serial4 NOT NULL,
+	dt varchar(50) NOT NULL,
+	n_shop numeric NOT NULL,
+	n_cash numeric NOT NULL,
+	doc_id varchar NOT NULL,
+	product varchar NULL,
+	category varchar NULL,
+	amount numeric NULL,
+	price float4 NULL,
+	discount float4 NULL,
+	CONSTRAINT auto_and_deploy_pk PRIMARY KEY (id),
+	CONSTRAINT auto_and_deploy_unique UNIQUE (dt, n_shop, n_cash, doc_id, product)
+);
