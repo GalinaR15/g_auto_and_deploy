@@ -1,1 +1,0 @@
-C:\Users\roman\PycharmProjects\g_auto_and_deploy\Scripts\python.exe C:\Users\roman\PycharmProjects\g_auto_and_deploy\import_sales_data_db.py
