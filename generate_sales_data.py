@@ -55,4 +55,3 @@ if 0 <= today_dt.weekday() <= 5:
         df.to_csv(os.path.join(dirname, DIRECTORY ,f'{shop_cash}.csv'), index=False)
 
 
-
