@@ -1,0 +1,1 @@
+C:\Users\roman\PycharmProjects\g_auto_and_deploy\Scripts\python.exe C:\Users\roman\PycharmProjects\g_auto_and_deploy\generate_sales_data.py
